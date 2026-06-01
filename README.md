@@ -6,7 +6,7 @@ This repository explains and provides the dataset and evaluation code proposed a
 본 프로젝트는 대형 언어 모델(LLM)이 저자원 사회언어학적 맥락, 그중에서도 오랜 분단으로 인해 남한과 독자적인 차이를 보이고 있는 북한의 언어, 사회, 지식을 얼마나 잘 이해하는지 진단하기 위한 데이터셋을 구축하고, 이에 대한 평가 및 결과를 제공합니다.
 This project constructs a dataset to diagnose how well Large Language Models (LLMs) understand the language, society, and knowledge of North Korea—a unique low-resource sociolinguistic context that has developed distinct differences from South Korea due to decades of division—and provides the subsequent evaluation and results.
 
----
+
 
 ## 🌟 프로젝트 개요 (Overview)
 
@@ -16,7 +16,7 @@ Decades of division have produced distinct differences between North and South K
 이 레포지토리는 논문의 실험을 재현하고 확장할 수 있도록 데이터셋과 일부 소스코드를 제공합니다.
 This repository provides the dataset and partial source code to enable replication and extension of the experiments in the paper.
 
----
+
 
 ## 📊 데이터셋 구조 (Dataset Dimensions)
 
@@ -33,7 +33,7 @@ Evaluates knowledge grounded in specialized North Korean sources not readily acc
 *모든 문항은 북한 이탈 주민(교사 출신 포함), 북한학 전문가 및 남한 검증자들의 Human-in-the-loop 검증 프로세스를 거쳐 높은 신뢰도로 구축되었습니다.*
 *All subsets are validated through a rigorous human-in-the-loop process involving North Korean defectors (including former teachers), domain experts, and South Korean annotators.*
 
----
+
 
 ## 📁 레포지토리 구조 (Directory Structure)
 
@@ -41,7 +41,7 @@ Evaluates knowledge grounded in specialized North Korean sources not readily acc
 - `src/` : 논문 평가용 소스코드 및 정규화 스크립트 (Evaluation Source Code & Normalization Scripts)
 - `requirements.txt` : 실행 환경 구성을 위한 라이브러리 목록 (Required Dependencies)
 
----
+
 
 ## 📜 인용 (Citation)
 
