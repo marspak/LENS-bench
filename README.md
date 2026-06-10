@@ -23,11 +23,14 @@ This repository provides the dataset and partial source code to enable replicati
 논문에서 활용된 LENS 벤치마크는 총 **1,765개의 문항**으로 구성되어 있으며, 3가지 핵심 차원을 평가합니다:<br>
 The LENS benchmark utilized in the paper comprises a total of **1,765 items**, evaluating three core dimensions:
 
-1. **Linguistic Robustness (언어적 견고성 - 708문항 / 708 items):** 문화적 모호성을 최소화한 STEM(과학·기술·공학·수학) 단답형 질문을 통해 영어, 남한어, 북한어 간의 언어적 이해도를 비교합니다.<br>
+1. **Linguistic Robustness (언어적 견고성 - 708문항 / 708 items** <br>
+문화적 모호성을 최소화한 STEM(과학·기술·공학·수학) 단답형 질문을 통해 영어, 남한어, 북한어 간의 언어적 이해도를 비교합니다.<br>
 Compares linguistic understanding across English, South Korean, and North Korean using STEM short-answer questions that minimize cultural ambiguity.
-2. **Sociocultural Perspective Alignment (사회문화적 관점 정렬 - 675문항 / 675 items):** 질문이 남한과 북한 중 어떤 맥락에서 주어졌느냐에 따라 정답이 달라지는 객관식 문항을 통해 관점의 차이를 구분하는지 평가합니다.<br>
+2. **Sociocultural Perspective Alignment (사회문화적 관점 정렬 - 675문항 / 675 items)** <br>
+질문이 남한과 북한 중 어떤 맥락에서 주어졌느냐에 따라 정답이 달라지는 객관식 문항을 통해 관점의 차이를 구분하는지 평가합니다.<br>
 Evaluates whether models can distinguish between competing sociocultural frames using multiple-choice questions where the appropriate answers differ depending on the South or North Korean context.
-3. **Domain-Specific Knowledge (도메인 특화 지식 - 382문항 / 382 items):** 온라인에서 쉽게 접할 수 없는 북한의 혁명 역사, 사회주의 헌법, 경제지대, 정치/경제 사전 등의 전문 자료를 바탕으로 한 단답형 질문을 통해 실제 지식의 유무를 평가합니다.<br>
+3. **Domain-Specific Knowledge (도메인 특화 지식 - 382문항 / 382 items)** <br>
+온라인에서 쉽게 접할 수 없는 북한의 혁명 역사, 사회주의 헌법, 경제지대, 정치/경제 사전 등의 전문 자료를 바탕으로 한 단답형 질문을 통해 실제 지식의 유무를 평가합니다.<br>
 Evaluates knowledge grounded in specialized North Korean sources not readily accessible online, such as revolutionary history, the socialist constitution, economic zones, and political/economic dictionaries.
 
 *모든 문항은 북한 이탈 주민(교사 출신 포함), 북한학 전문가 및 남한 검증자들의 Human-in-the-loop 검증 프로세스를 거쳐 높은 신뢰도로 구축되었습니다.*<br>
