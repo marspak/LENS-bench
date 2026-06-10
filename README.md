@@ -23,7 +23,7 @@ This repository provides the dataset and partial source code to enable replicati
 논문에서 활용된 LENS 벤치마크는 총 **1,765개의 문항**으로 구성되어 있으며, 3가지 핵심 차원을 평가합니다:<br>
 The LENS benchmark utilized in the paper comprises a total of **1,765 items**, evaluating three core dimensions:
 
-1. **Linguistic Robustness (언어적 견고성 - 708문항 / 708 items** <br>
+1. **Linguistic Robustness (언어적 견고성 - 708문항 / 708 items)** <br>
 문화적 모호성을 최소화한 STEM(과학·기술·공학·수학) 단답형 질문을 통해 영어, 남한어, 북한어 간의 언어적 이해도를 비교합니다.<br>
 Compares linguistic understanding across English, South Korean, and North Korean using STEM short-answer questions that minimize cultural ambiguity.
 2. **Sociocultural Perspective Alignment (사회문화적 관점 정렬 - 675문항 / 675 items)** <br>
