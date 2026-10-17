@@ -50,13 +50,13 @@ Evaluates knowledge grounded in specialized North Korean sources not readily acc
 
 본 저장소의 데이터셋이나 코드를 연구에 활용하실 경우 아래 논문을 인용해 주세요.<br>
 If you find this dataset or code useful for your research, please cite our paper:
-```
+```bibtex
 @article{park2026lens,
-  author  = {Kiwoong Park and Seyoung Song and Donghyun Woo and Alice Oh},
-  journal = {ArXiv preprint},
-  title   = {North or South? Diagnosing LLMs' Understanding of North Korean Language, Society, and Knowledge},
-  url     = {https://arxiv.org/abs/2610.15282},
-  volume  = {abs/2610.15282},
-  year    = {2026}
+  author    = {Kiwoong Park and Seyoung Song and Donghyun Woo and Alice Oh},
+  booktitle = {Proceedings of AACL-IJCNLP 2026},
+  title     = {{North} or {South}? Diagnosing {LLMs}' Understanding of {North Korean} Language, Society, and Knowledge},
+  url       = {https://arxiv.org/abs/2610.15282},
+  year      = {2026},
+  note      = {To appear}
 }
 ```
