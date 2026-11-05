@@ -51,12 +51,25 @@ Evaluates knowledge grounded in specialized North Korean sources not readily acc
 본 저장소의 데이터셋이나 코드를 연구에 활용하실 경우 아래 논문을 인용해 주세요.<br>
 If you find this dataset or code useful for your research, please cite our paper:
 ```bibtex
-@article{park2026lens,
-  author    = {Kiwoong Park and Seyoung Song and Donghyun Woo and Alice Oh},
-  booktitle = {Proceedings of AACL-IJCNLP 2026},
-  title     = {{North} or {South}? Diagnosing {LLMs}' Understanding of {North Korean} Language, Society, and Knowledge},
-  url       = {https://arxiv.org/abs/2610.15282},
-  year      = {2026},
-  note      = {To appear}
+@inproceedings{park-etal-2026-north,
+    title = "North or South? Diagnosing {LLM}s' Understanding of {N}orth {K}orean Language, Society, and Knowledge",
+    author = "Park, Kiwoong  and
+      Song, Seyoung  and
+      Woo, Donghyun  and
+      Oh, Alice",
+    editor = "Zhang, Yue  and
+      Xu, Ruifeng  and
+      Purwarianti, Ayu  and
+      Rong, Tong  and
+      Suzuki, Jun",
+    booktitle = "Proceedings of the 15th International Joint Conference on Natural Language Processing and the 5th Conference of the {A}sia-Pacific Chapter of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)",
+    month = nov,
+    year = "2026",
+    address = "Hengqin, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.aacl-long.21/",
+    pages = "408--426",
+    ISBN = "979-8-89176-439-2",
+    abstract = "Large Language Models (LLMs) have made substantial progress in multilingual question answering, yet their ability to understand low-resource sociolinguistic contexts remains underexplored. We study North Korea as a unique testbed where decades of division have produced distinct differences from South Korea in vocabulary, orthography, norms, and ideological discourse. We introduce LENS (Language and sociocultural Evaluation for North Korean Society), a human-validated benchmark of 1,765 questions evaluating LLMs across three dimensions: linguistic robustness, sociocultural perspective alignment, and domain-specific knowledge. Evaluating diverse recent LLMs, we find a modest performance drop on North Korean language inputs, a larger gap in sociocultural perspective alignment, and severe limitations on domain-specific knowledge. Qualitative analysis reveals that models often conflate formal institutions with lived realities, project liberal-democratic assumptions, or rely on coarse stereotypes. Our results demonstrate that linguistic similarity alone does not guarantee sociocultural or domain-specific understanding, highlighting the critical need for grounded evaluation resources for underrepresented cultural and political contexts."
 }
 ```
